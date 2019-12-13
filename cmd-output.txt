@@ -2,11 +2,11 @@ The starting node is
 depth=0
 [3, 3, 1]
 
-the node selected to expand is
+The node selected to expand is
 depth=0
 [3, 3, 1]
 
-the children nodes of this node are
+The children nodes of this node are
 depth=1
 [3, 2, 0]
 
@@ -22,11 +22,11 @@ depth=1
 depth=1
 [1, 3, 0]
 
-the node selected to expand is
+The node selected to expand is
 depth=1
 [3, 2, 0]
 
-the children nodes of this node are
+The children nodes of this node are
 depth=2
 [3, 4, 1]
 
@@ -39,11 +39,11 @@ depth=2
 depth=2
 [5, 2, 1]
 
-the node selected to expand is
+The node selected to expand is
 depth=1
 [3, 1, 0]
 
-the children nodes of this node are
+The children nodes of this node are
 depth=2
 [3, 2, 1]
 
@@ -56,17 +56,17 @@ depth=2
 depth=2
 [5, 1, 1]
 
-the node selected to expand is
+The node selected to expand is
 depth=1
 [2, 3, 0]
 
 This node is killed
 
-the node selected to expand is
+The node selected to expand is
 depth=1
 [2, 2, 0]
 
-the children nodes of this node are
+The children nodes of this node are
 depth=2
 [2, 3, 1]
 
@@ -76,17 +76,17 @@ depth=2
 depth=2
 [4, 2, 1]
 
-the node selected to expand is
+The node selected to expand is
 depth=1
 [1, 3, 0]
 
 This node is killed
 
-the node selected to expand is
+The node selected to expand is
 depth=2
 [3, 2, 1]
 
-the children nodes of this node are
+The children nodes of this node are
 depth=3
 [3, 0, 0]
 
@@ -96,17 +96,17 @@ depth=3
 depth=3
 [1, 2, 0]
 
-the node selected to expand is
+The node selected to expand is
 depth=2
 [2, 3, 1]
 
 This node is killed
 
-the node selected to expand is
+The node selected to expand is
 depth=3
 [3, 0, 0]
 
-the children nodes of this node are
+The children nodes of this node are
 depth=4
 [3, 1, 1]
 
@@ -119,23 +119,23 @@ depth=4
 depth=4
 [5, 0, 1]
 
-the node selected to expand is
+The node selected to expand is
 depth=3
 [2, 1, 0]
 
 This node is killed
 
-the node selected to expand is
+The node selected to expand is
 depth=3
 [1, 2, 0]
 
 This node is killed
 
-the node selected to expand is
+The node selected to expand is
 depth=4
 [3, 1, 1]
 
-the children nodes of this node are
+The children nodes of this node are
 depth=5
 [3, -1, 0]
 
@@ -145,17 +145,17 @@ depth=5
 depth=5
 [1, 1, 0]
 
-the node selected to expand is
+The node selected to expand is
 depth=5
 [2, 0, 0]
 
 This node is killed
 
-the node selected to expand is
+The node selected to expand is
 depth=5
 [1, 1, 0]
 
-the children nodes of this node are
+The children nodes of this node are
 depth=6
 [1, 2, 1]
 
@@ -168,48 +168,48 @@ depth=6
 depth=6
 [2, 2, 1]
 
-the node selected to expand is
+The node selected to expand is
 depth=6
 [1, 2, 1]
 
 This node is killed
 
-the node selected to expand is
+The node selected to expand is
 depth=6
 [1, 3, 1]
 
 This node is killed
 
-the node selected to expand is
+The node selected to expand is
 depth=6
 [2, 1, 1]
 
 This node is killed
 
-the node selected to expand is
+The node selected to expand is
 depth=6
 [2, 2, 1]
 
-the children nodes of this node are
+The children nodes of this node are
 depth=7
 [0, 2, 0]
 
-the node selected to expand is
+The node selected to expand is
 depth=7
 [0, 2, 0]
 
-the children nodes of this node are
+The children nodes of this node are
 depth=8
 [0, 3, 1]
 
 depth=8
 [0, 4, 1]
 
-the node selected to expand is
+The node selected to expand is
 depth=8
 [0, 3, 1]
 
-the children nodes of this node are
+The children nodes of this node are
 depth=9
 [0, 1, 0]
 
@@ -222,38 +222,38 @@ depth=9
 depth=9
 [-2, 3, 0]
 
-the node selected to expand is
+The node selected to expand is
 depth=9
 [0, 1, 0]
 
-the children nodes of this node are
+The children nodes of this node are
 depth=10
 [0, 2, 1]
 
 depth=10
 [1, 1, 1]
 
-the node selected to expand is
+The node selected to expand is
 depth=10
 [0, 2, 1]
 
-the children nodes of this node are
+The children nodes of this node are
 depth=11
 [0, 0, 0]
-which is the goal state
+Which is the goal state
 
 BFS Solution: [[0, 2, -1], [0, 1, 1], [0, 2, -1], [0, 1, 1], [2, 0, -1], [1, 1, 1], [2, 0, -1], [0, 1, 1], [0, 2, -1], [0, 1, 1], [0, 2, -1]]
 Space: 199
-Time for BFS : 1.4187188148498535 seconds
+Time for BFS : 0.48410677909851074 seconds
 The starting node is 
 depth=0
 [3, 3, 1]
 
-the node selected to expand is
+The node selected to expand is
 depth=0
 [3, 3, 1]
 
-the children nodes of this node are
+The children nodes of this node are
 depth=1
 [3, 2, 0]
 
@@ -269,17 +269,17 @@ depth=1
 depth=1
 [1, 3, 0]
 
-the node selected to expand is
+The node selected to expand is
 depth=1
 [1, 3, 0]
 
 This node is killed
 
-the node selected to expand is
+The node selected to expand is
 depth=1
 [2, 2, 0]
 
-the children nodes of this node are
+The children nodes of this node are
 depth=2
 [2, 3, 1]
 
@@ -292,11 +292,11 @@ depth=2
 depth=2
 [4, 2, 1]
 
-the node selected to expand is
+The node selected to expand is
 depth=2
 [3, 2, 1]
 
-the children nodes of this node are
+The children nodes of this node are
 depth=3
 [3, 0, 0]
 
@@ -306,23 +306,23 @@ depth=3
 depth=3
 [1, 2, 0]
 
-the node selected to expand is
+The node selected to expand is
 depth=3
 [1, 2, 0]
 
 This node is killed
 
-the node selected to expand is
+The node selected to expand is
 depth=3
 [2, 1, 0]
 
 This node is killed
 
-the node selected to expand is
+The node selected to expand is
 depth=3
 [3, 0, 0]
 
-the children nodes of this node are
+The children nodes of this node are
 depth=4
 [3, 1, 1]
 
@@ -335,11 +335,11 @@ depth=4
 depth=4
 [5, 0, 1]
 
-the node selected to expand is
+The node selected to expand is
 depth=4
 [3, 1, 1]
 
-the children nodes of this node are
+The children nodes of this node are
 depth=5
 [3, -1, 0]
 
@@ -349,11 +349,11 @@ depth=5
 depth=5
 [1, 1, 0]
 
-the node selected to expand is
+The node selected to expand is
 depth=5
 [1, 1, 0]
 
-the children nodes of this node are
+The children nodes of this node are
 depth=6
 [1, 2, 1]
 
@@ -366,30 +366,30 @@ depth=6
 depth=6
 [2, 2, 1]
 
-the node selected to expand is
+The node selected to expand is
 depth=6
 [2, 2, 1]
 
-the children nodes of this node are
+The children nodes of this node are
 depth=7
 [0, 2, 0]
 
-the node selected to expand is
+The node selected to expand is
 depth=7
 [0, 2, 0]
 
-the children nodes of this node are
+The children nodes of this node are
 depth=8
 [0, 3, 1]
 
 depth=8
 [0, 4, 1]
 
-the node selected to expand is
+The node selected to expand is
 depth=8
 [0, 3, 1]
 
-the children nodes of this node are
+The children nodes of this node are
 depth=9
 [0, 1, 0]
 
@@ -402,22 +402,22 @@ depth=9
 depth=9
 [-2, 3, 0]
 
-the node selected to expand is
+The node selected to expand is
 depth=9
 [0, 1, 0]
 
-the children nodes of this node are
+The children nodes of this node are
 depth=10
 [0, 2, 1]
 
 depth=10
 [1, 1, 1]
 
-the node selected to expand is
+The node selected to expand is
 depth=10
 [1, 1, 1]
 
-the children nodes of this node are
+The children nodes of this node are
 depth=11
 [1, 0, 0]
 
@@ -426,9 +426,9 @@ depth=11
 
 depth=11
 [0, 0, 0]
-which is the goal state
+Which is the goal state
 
 DFS Solution: [[1, 1, -1], [1, 0, 1], [0, 2, -1], [0, 1, 1], [2, 0, -1], [1, 1, 1], [2, 0, -1], [0, 1, 1], [0, 2, -1], [1, 0, 1], [1, 1, -1]]
 Space: 326
-Time for DFS: 0.5163745880126953 seconds
-THE TIME TAKEN BY DFS IS 0.5163745880126953 and BFS is 1.4187188148498535 
+Time for DFS: 0.6706352233886719 seconds
+THE TIME TAKEN BY DFS IS 0.6706352233886719 and BFS is 0.48410677909851074 

@@ -23,7 +23,7 @@ def dfs(initial_state):
 	print(str(start_node.state))
 	while (q.__len__()>0):
 		node=q.pop()
-		print("\nthe node selected to expand is\ndepth="+str(node.depth)+"\n"+str(node.state)+"\n")
+		print("\nThe node selected to expand is\ndepth="+str(node.depth)+"\n"+str(node.state)+"\n")
 		explored.append(node.state)
 		graph.add_node(node.graph_node)
 		if node.parent:
@@ -33,13 +33,13 @@ def dfs(initial_state):
 			graph.add_edge(pydot.Edge(node.parent.graph_node, node.graph_node,label=str(diff)))
 		children=node.generate_child()
 		if not node.is_killed():
-			print("the children nodes of this node are",end="")
+			print("The children nodes of this node are",end="")
 			for child in children:
 				if child.state not in explored:
 					print("\ndepth=%d" % child.depth)
 					print(str(child.state))
 					if child.goal_test():
-						print("which is the goal state\n")
+						print("Which is the goal state\n")
 						graph.add_node(child.graph_node)
 						diff = np.subtract(node.parent.state, node.state)
 						if node.parent.state[2] == 0:
